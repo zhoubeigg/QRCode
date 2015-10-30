@@ -15,6 +15,7 @@
 		8EFF588B1BE31ED700A8D857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFF58891BE31ED700A8D857 /* LaunchScreen.storyboard */; };
 		8EFF58961BE31ED700A8D857 /* QRCodeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF58951BE31ED700A8D857 /* QRCodeDemoTests.m */; };
 		8EFF58A11BE31ED700A8D857 /* QRCodeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF58A01BE31ED700A8D857 /* QRCodeDemoUITests.m */; };
+		D10EBFE31BE33B7D00B0B088 /* QRReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10EBFE21BE33B7D00B0B088 /* QRReaderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8EFF589C1BE31ED700A8D857 /* QRCodeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFF58A01BE31ED700A8D857 /* QRCodeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeDemoUITests.m; sourceTree = "<group>"; };
 		8EFF58A21BE31ED700A8D857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D10EBFE11BE33B7D00B0B088 /* QRReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRReaderViewController.h; sourceTree = "<group>"; };
+		D10EBFE21BE33B7D00B0B088 /* QRReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRReaderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				8EFF587F1BE31ED700A8D857 /* AppDelegate.m */,
 				8EFF58811BE31ED700A8D857 /* ViewController.h */,
 				8EFF58821BE31ED700A8D857 /* ViewController.m */,
+				D10EBFE11BE33B7D00B0B088 /* QRReaderViewController.h */,
+				D10EBFE21BE33B7D00B0B088 /* QRReaderViewController.m */,
 				8EFF58841BE31ED700A8D857 /* Main.storyboard */,
 				8EFF58871BE31ED700A8D857 /* Assets.xcassets */,
 				8EFF58891BE31ED700A8D857 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D10EBFE31BE33B7D00B0B088 /* QRReaderViewController.m in Sources */,
 				8EFF58831BE31ED700A8D857 /* ViewController.m in Sources */,
 				8EFF58801BE31ED700A8D857 /* AppDelegate.m in Sources */,
 				8EFF587D1BE31ED700A8D857 /* main.m in Sources */,
@@ -366,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -403,7 +409,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -415,6 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QRCodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BlueMobiPM5ZB.QRCodeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QRCodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BlueMobiPM5ZB.QRCodeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -499,6 +507,7 @@
 				8EFF58A71BE31ED700A8D857 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EFF58A81BE31ED700A8D857 /* Build configuration list for PBXNativeTarget "QRCodeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +516,7 @@
 				8EFF58AA1BE31ED700A8D857 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EFF58AB1BE31ED700A8D857 /* Build configuration list for PBXNativeTarget "QRCodeDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +525,7 @@
 				8EFF58AD1BE31ED700A8D857 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
